@@ -1,0 +1,1 @@
+This Dockerfile builds node.js and npm.   It is useful as a starter platform for angular.js project.
