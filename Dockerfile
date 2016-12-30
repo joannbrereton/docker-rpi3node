@@ -1,9 +1,10 @@
 FROM resin/rpi-raspbian:jessie-20160831  
+MAINTAINER joann.brereton@gmail.com
+
 RUN apt-get update && \  
     apt-get -qy install curl \
                 build-essential  \
                 ca-certificates
-MAINTAINER joann.brereton@gmail.com
 WORKDIR /root/  
 RUN curl -O \  
   https://nodejs.org/dist/v4.5.0/node-v4.5.0-linux-armv6l.tar.gz
