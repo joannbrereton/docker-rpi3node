@@ -10,4 +10,4 @@ RUN tar -xvf node-*.tar.gz -C /usr/local \
   --strip-components=1
 RUN rm node-v4.5.0*.gz
 RUN npm install npm@latest -g
-CMD ["node"]  
+CMD ["bash"]  
